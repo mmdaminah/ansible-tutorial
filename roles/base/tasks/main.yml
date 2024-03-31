@@ -1,0 +1,4 @@
+- name: add ssh key for simone
+  authorized_key:
+    user: simone
+    key: "ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIPRyIA0rL5fj6TL7NlFCyQddL/mETjcGmPI88et47/m6 Ubuntu-VM"
